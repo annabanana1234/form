@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<h1> Order Now! </h1>
+<link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+<form action="thanks.html" method="post">
+
+  <fieldset>
+  <legend>Customer Information</legend>
+    <br>First name:<br>
+    <input type="text" name="firstname"><br>
+    <br>Address:<br>
+    <input type="text" name="firstname"><br>
+    <br>City:
+    <input type="text" name="firstname">
+     State:
+    <input type="text" name="firstname" maxlength="2">
+     Zip :
+    <input type="text" name="firstname"><br>
+  </fieldset>
+
+  <fieldset>
+  <legend>Order Information</legend>
+    <p> Size: <select name="Size"> </p>
+    <option value="Small">Small</option>
+    <option value="Medium">Medium</option>
+    <option value="Large">Large</option>
+    <option value="Xtra Large">Xtra Large</option>
+    </select>
+    Quantity:
+    <input type="text" name="firstname" size="3"> <br>
+  </fieldset>
+
+
+  <fieldset>
+    <legend> Payment Information</legend>
+    <p> Card Type: <input type="radio" name="Card Type" value="Visa" checked> Visa
+     <input type="radio" name="Card Type" value="Master Card"> Master Card
+      <input type="radio" name="Card Type" value="Discover"> Discover <br>
+      <br>Credit Card Number:
+      <input type="text" name="Credit Card Number"> <br>
+    </fieldset>
+
+
+     <br>
+      <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
