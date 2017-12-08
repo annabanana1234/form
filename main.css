@@ -1,2 +1,19 @@
+
+body{
+background-color: #ac8fbc
+}
+
+h1{
+text-align: center;
+font-size: 32px;
+}
+
 head{
 font-size: 20px;}
+
+fieldset{
+background-color: #c8bece;
+}
+
+legend{
+font-size: 25px;}
